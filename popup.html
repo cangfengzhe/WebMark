@@ -1,0 +1,135 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>js取色器</title>
+
+    <script src="ColorPicker.js"></script>
+    <style>
+    #all{
+        width:420px;height:380px;
+        border: red solid 1px;
+        background-color: #CFC9CB;
+         
+
+    }
+    input {
+        
+        width: 100px;
+    }
+    #tab {
+        font-size:18px;
+        text-align: center;
+        border-collapse: separate;
+        border-spacing: 10px;
+    }
+   #enterbtn{
+        position: absolute;
+        left:160px;
+   }
+#right{
+    position: absolute;
+    left:400px;
+    float:right;
+    top:15px;
+    font-size: 40px;
+    width:20px;
+    line-height: 48px;
+    font-family:黑体;
+    
+}
+
+#help{
+    
+    margin-left: 15px;
+    width:350px;
+    line-height: 24px;
+    font-size:18px;
+    padding:0;
+
+
+}
+
+    </style>
+
+
+</head>
+
+<body>
+    <div id='all'>
+        <table id='tab'>
+            <tr>
+                <td>设置</td>
+                <td>颜色</td>
+                <td>快捷键</td>
+            </tr>
+            <tr>
+                <td>字 体</td>
+                <td>
+                    <input type="text" name="fontColor" id="fontColor"><img src="images/Rect.gif" id='fontColorImg' align="absmiddle">
+                </td>
+                <td>
+                    <input type='text' name='fontShortcut' id='fontShortcut' />
+                </td>
+            </tr>
+            <tr>
+                <td>背 景</td>
+                <td>
+                    <input type="text" name="bgcolor" id="bgColor"><img src="images/Rect.gif" id='bgColorImg' align="absmiddle">
+                </td>
+                <td>
+                    <input type='text' name='bgShortcut' id='bgShortcut' />
+                </td>
+            </tr>
+            <tr>
+                <td>下划线</td>
+                <td>
+                    <input type="text" name="ulColor" id="ulColor"><img src="images/Rect.gif" id='ulColorImg' align="absmiddle">
+                </td>
+                <td>
+                    <input type='text' name='ulShortcut' id='ulShortcut' />
+                </td>
+            </tr>
+        </table>
+
+        <!-- <p>设置</p>
+        <p>
+            字体颜色:
+            <input type="text" name="fontColor" id="fontColor" width='50px'>
+            <img src="images/Rect.gif" id='fontColorImg' align="absmiddle">
+        </p>
+        <p>
+            背景颜色：
+            <input type="text" name="bgcolor" id="bgColor">
+            <img src="images/Rect.gif" id='bgColorImg' align="absmiddle">
+        </p>
+        <p>
+            下划线颜色:
+            <input type="text" name="ulColor" id="ulColor">
+            <img src="images/Rect.gif" id='ulColorImg' align="absmiddle">
+        </p>
+        <p>快捷键</p>
+        <p>字体颜色快捷键:
+            <input type='text' name='fontShortcut' id='fontShortcut' />
+        </p>
+        <p>背景色快捷键:
+            <input type='text' name='bgShortcut' id='bgShortcut' />
+        </p>
+        <p>下划线快捷键:
+            <input type='text' name='ulShortcut' id='ulShortcut' /> </p> -->
+        <input type="submit" id='enterbtn' value='修改' /><br/>
+        <div id='help'>
+            
+        <p >使用说明<br>webmark是一款网页标记扩展，选中网页中的文字按下快捷键可以进行颜色、背景、下划线的设置，方便网页阅读。同时可以配合印象笔记chrome扩展进行保存。</p> 
+
+        </div>
+       
+        <div id='right'>
+    W E B M A R K
+</div>
+    </div>
+
+</body>
+
+</html>
