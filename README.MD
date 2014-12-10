@@ -6,4 +6,4 @@
 
 WebMark文件为源文件，WebMark.crx 为打包好的扩展。
 
-![Alt text](/WebMark/icon.png)
+![Alt text](image.jpg)
